@@ -238,6 +238,7 @@ class _IntroViewsFlutterState extends State<IntroViewsFlutter>
             percentVisible: 1.0,
             columnMainAxisAlignment: widget.columnMainAxisAlignment,
           ), //Pages
+          /*
           PageReveal(
             //next page reveal
             revealPercent: slidePercent,
@@ -246,7 +247,7 @@ class _IntroViewsFlutterState extends State<IntroViewsFlutter>
                 percentVisible: slidePercent,
                 columnMainAxisAlignment: widget.columnMainAxisAlignment),
           ), //PageReveal
-
+          */
           PagerIndicator(
             //bottom page indicator
             viewModel: PagerIndicatorViewModel(
